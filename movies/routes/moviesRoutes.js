@@ -1,6 +1,6 @@
 const express = require('express')
 const router = express.Router();
-const { getMovies } = require('../controllers/moviesControllers')
+const { getMovies, createMovies } = require('../controllers/moviesControllers')
 
 //CRUD
 
@@ -8,11 +8,11 @@ const { getMovies } = require('../controllers/moviesControllers')
 router.get('/api/movies', getMovies)
 
 //Creat
-/* router.post('/', createMovies)
+router.post('/api/movies', createMovies)
 
 
 //Delete
-router.delete('/:id', deleteMovies) */
+//router.delete('/:id', deleteMovies) */
 
 //Update
 //router.update('/:id', deleteMovies) */

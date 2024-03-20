@@ -11,15 +11,15 @@ const movieSchema = mongoose.Schema({
     },
     popularity: {
         type: String,
-        require: true
+        require: false
     },
     vote_average: {
         type: Number,
-        require: true
+        require: false
     },
     vote_count: {
         type: Number,
-        require: true
+        require: false
     }
 
 })
