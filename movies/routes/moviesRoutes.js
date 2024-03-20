@@ -8,10 +8,10 @@ const { getMovies } = require('../controllers/moviesControllers')
 router.get('/', getMovies)
 
 //Creat
-router.post('/', createMovies)
+/* router.post('/', createMovies)
 
 
 //Delete
-router.delete('/:id', deleteMovies)
+router.delete('/:id', deleteMovies) */
 
 module.exports = router
