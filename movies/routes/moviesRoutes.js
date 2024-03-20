@@ -5,7 +5,7 @@ const { getMovies } = require('../controllers/moviesControllers')
 //CRUD
 
 //Get
-router.get('/', getMovies)
+router.get('/api/movies', getMovies)
 
 //Creat
 /* router.post('/', createMovies)
@@ -13,5 +13,8 @@ router.get('/', getMovies)
 
 //Delete
 router.delete('/:id', deleteMovies) */
+
+//Update
+//router.update('/:id', deleteMovies) */
 
 module.exports = router
